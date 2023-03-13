@@ -1,0 +1,269 @@
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway";
+    line-height: 1;
+    position: absolute;
+    width: 100vw;
+  }
+  
+  ol,
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+.cabecalho {
+    align-items: center;
+    color: #464646;
+    display: flex;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: space-around;
+    padding: 20px 152px;
+    position: relative;
+    width: 100vw;
+  }
+
+  .cabecalho__logo {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    margin: 20px 0;
+    width: 40%;
+  }
+
+  .cabecalho__menu {
+    width: 100vw;
+  }
+
+  .cabecalho__menu--lista {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: flex-end;
+  }
+  
+  .cabecalho__menu--item {
+    margin-top: 8px;
+  }
+
+  .apresentacao {
+    align-items: center;
+    display: flex;
+    gap: 1px;
+    height: 368px;
+    width: 1136px;
+  }
+  
+  .apresentacao__ola {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    height: 246px;
+    width: 751px;
+  }
+  
+  .apresentacao__foto {
+    border-radius: 100%;
+    flex: none;
+    flex-grow: 0;
+    height: 300px;
+    order: 1;
+    width: 300px;
+  }
+
+  .apresentacao__container--bio {
+    align-self: stretch;
+    color: #464646;
+    flex: none;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    height: 122px;
+    line-height: 61px;
+    order: 0;
+    width: 751px;
+  }
+  
+  .apresentacao__container--subsecao {
+    align-self: stretch;
+    color: #464646;
+    flex: none;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    height: 52px;
+    line-height: 26px;
+    padding: 20px 0 0 0;
+    width: 751px;
+  }
+  
+  .apresentacao__links {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: 24px;
+    padding: 40px 0 0 0;
+    width: 467px;
+  }
+
+  .sobre {
+    background: #EAF2FD;
+    height: 383px;
+    width: 100vw;
+  }
+
+  .sobre__container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 383px;
+    justify-content: space-around;
+    padding: 64px 152px;
+  }
+
+  .sobre__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .sobre__paragrafo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: space-around;
+    line-height: 19px;
+  }
+
+  .skills, .hobbies {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px ;
+    height: 244px;
+    margin-top: 20px;
+    padding: 20px 150px;
+    width: 100vw
+  }
+
+  .skills__titulo, .hobbies__titulo {
+    flex: none;
+    font-size: 32px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 82px;
+  }
+
+  .skills__linha, .hobbies__linha {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: 174px;
+    justify-content: space-around;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .formacao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px ;
+    height: 244px;
+    margin-top: 20px;
+    padding: 0;
+    width: 100vw
+  }
+
+  .formacao__titulo {
+    flex: none;
+    font-size: 32px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 100px;
+  }
+
+  .rodape {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+  /* Menu */
+  
+  /*title*/
+  
+  /*Skills*/
+  
+  /*Hobbies*/
+  
+  /*Experiências acadêmicas*/
+  
+  /*Expeirência profissional*/
+  
+  }
+  
+  /*Mobile*/
+  @media (min-width: 425px) {
+  
+  /*Menu*/
+  
+  /*Titulo*/
+  
+  /*Sessão sobre*/
+  
+  /*Skills*/
+  
+  /*Hobbies*/
+   
+  /*Formação Acadêmica*/
+  
+  /*Experiência Profissional*/
+  
+   /*Contato*/
+  
+  /*Footer*/
+  
+  }
